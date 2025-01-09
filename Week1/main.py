@@ -1,4 +1,4 @@
-number = 42
+number = 10
 print(number)
 print(type(number))
 
