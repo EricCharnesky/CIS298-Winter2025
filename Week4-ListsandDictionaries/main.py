@@ -1,5 +1,20 @@
 import random
 
+unchangeable_list = (1, 2, 3, 4, 5)
+
+for value in unchangeable_list:
+    print(value)
+
+for index in range(len(unchangeable_list)):
+    print(unchangeable_list[index])
+
+# no append option
+# unchangeable_list.append()
+
+# no setting items by index
+# unchangeable_list[1] = 10
+
+
 
 # key value pairs, key : value
 grades = { 'Eric' : 'A', 'Jeb' : 'B' }
